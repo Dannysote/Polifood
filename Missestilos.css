@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	background-color:#c0c0c0 ;
+}
+body{
+	height: 1000px;
+	width:1000px;
+	background-color: blueviolet;
+	margin: auto;
+}	
+header{
+	height: 200px;
+	width: 1000px;
+	background-color: lavenderblush;
+}	
+nav{
+	height: 50px;
+	width: 1000px;
+	background-color: lightblue;
+}	
+main{
+	height: 700px;
+	width: 1000px;
+	background-color:darkcyan;
+}	
+article{
+	height: 700px;
+	width: 800px;
+	background-color:coral;
+	float: left;
+}
+aside{
+	height: 700px;
+	width: 200px;
+	background-color:darkkhaki;
+	float: left;
+}
+footer{
+	height: 50px;
+	width: 1000px;
+	background-color:cyan;
+}
+/*menu de opciones*/
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	font-family:tahoma;
+}
+
+nav li{
+	display: inline-block;
+	padding: 15px 15px;
+	box-shadow: 0px 0px 30px #233;
+	background-color: #11223344;
+}
+
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+	font-family: tahoma;
+
+}
+
+nav li:hover{
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0px 0px 20px #000000;
+	transition: 1s;
+}
+/*Menu redes sociales*/
+.redes ul{
+	list-style: none;
+	text-align: center;
+}
+
+.redes ul li{
+	display: inline-block;
+	padding: 0px 0px;
+}
+
+.redes ul li img{
+	width: 35px;
+}
+
+.redes ul li:hover{
+	box-shadow: 0 0 30px #000000;
+	transition: 0.5s;
+	background-color: #FFEBCD;
+}
